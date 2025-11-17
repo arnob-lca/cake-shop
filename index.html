@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Merry Convars</title>
+
+    <!-- fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstarp CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- mobile sec -->
+
+    <!-- nav header -->
+    <div class="mobile-sec">
+      <div class="top-header-contain">
+        <div class="container">
+          <div class="d-flex justify-content align-item">
+            <div class="logo">
+              <a href="#"
+                ><img src="./assets/images/logo.png" alt="logo-img"
+              /></a>
+            </div>
+            <div class="d-flex gap-30">
+              <div class="call-number">
+                <p>
+                  <a class="top-header-color" href="tell:28288274687"
+                    >Call: <strong>+28288274687</strong></a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <header class="main-header-contain align-item">
+        <div class="container">
+          <div class="menu-dtls d-flex justify-content align-item">
+            <div class="search-btn align-item">
+              <i class="bi bi-search"></i>
+              <input
+                title="search Product"
+                id="searchInput"
+                class="search"
+                type="text"
+                placeholder="Search"
+              />
+            </div>
+            <div class="menu-btn">
+              <button id="menubutton">Menu</button>
+            </div>
+            <div id="mobilewrapper" class="mobile-wrapper">
+              <div class="mobile-inner">
+                <nav class="menu-txt">
+                  <div class="logo">
+                    <a href="#"
+                      ><img src="./assets/images/logo.png" alt="logo-img"
+                    /></a>
+                  </div>
+                  <ul class="menu-color">
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </nav>
+                <button class="close-btn" id="clsbtn">&times;</button>
+                <div class="d-flex gap-20 m-2">
+                  <a class="top-header-icon" href="#"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a class="top-header-icon" href="#"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a class="top-header-icon" href="#"
+                    ><i class="bi bi-whatsapp"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <!-- desktop sec -->
+
+    <div class="desktop-sec">
+      <!-- <div class="top-header-contain">
+        <div class="container">
+          <div class="d-flex justify-content align-item">
+            <div class="logo">
+              <a href="#"
+                ><img src="./assets/images/logo.png" alt="logo-img"
+              /></a>
+            </div>
+            <div class="d-flex gap-30">
+              <div class="call-number">
+                <p>
+                  <a class="top-header-color" href="tell:28288274687"
+                    >Call: <strong>+28288274687</strong></a
+                  >
+                </p>
+              </div>
+              <div class="email-adderss">
+                <p>
+                  <a class="top-header-color" href="mailto:arnob.182@gmail.com"
+                    >Email: <strong>arnob.182@gmail.com</strong></a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="d-flex gap-20">
+              <a class="top-header-icon" href="#"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a class="top-header-icon" href="#"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a class="top-header-icon" href="#"
+                ><i class="bi bi-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- header -->
+
+      <header class="main-header-contain align-item">
+        <div class="container">
+          <div class="menu-dtls d-flex justify-content align-item">
+            <div class="logo">
+              <a href="#"
+                ><img src="./assets/images/logo.png" alt="logo-img"
+              /></a>
+            </div>
+            <nav class="menu-txt">
+              <ul class="d-flex gap-20 menu-color-desktop">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="last-account-part">
+              <div class="d-flex gap-20">
+                <a class="top-header-icon" id="searchbtn" href="#"
+                  ><i class="bi bi-search"></i
+                ></a>
+                <a class="top-header-icon" href="#"
+                  ><i class="bi bi-cart"></i
+                ></a>
+                <a class="top-header-icon" href="#"
+                  ><i class="bi bi-person"></i
+                ></a>
+              </div>
+              <div class="shop-btn">
+                <button>Shop Now</button>
+              </div>
+            </div>
+            <div id="popup" class="popup-overly">
+              <div class="container">
+                <div class="popup-content">
+                  <button class="close-button" id="closebtn">&times;</button>
+                  <input type="search" placeholder="Search-Item" name="search"  required />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <!-- banner section start -->
+
+    <section class="banner-sec-contain">
+      <img src="./assets/images/banner.jpg" alt="banner.jpg" />
+      <div class="banner-hero-text">
+        <div class="container">
+          <h5>
+            Freshly baked cakes crafted with love — perfect for every festive
+            celebration!
+          </h5>
+          <h2>Celebrate Sweet Moments with Merry Convars</h2>
+          <div class="order-btn-flex">
+            <div class="more-btn">
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="view-menu">
+              <a href="#" class="btn">View Menu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- banner section end -->
+
+    <section class="about-us">
+      <div class="container">
+        <h2>About Us</h2>
+        <div class="about-us-contain gap-20">
+          <div class="about-us-text">
+            <h3>The Promise & The Quality</h3>
+            <p>
+              We may not be able to provide solutions to all of life's
+              problems... but at least we can give you a very good sweet
+              dessert!"
+            </p>
+            <div class="point-main">
+              <div class="about-us-inprotentpoint">
+                <h5>Where love meets baking</h5>
+                <p>
+                  How Mary Converse got started (e.g., from an old family
+                  recipe), your passion for baking, and why you make cakes.
+                </p>
+              </div>
+              <div class="about-us-inprotentpoint">
+                <h5>Our Commitment: Quality and Fresh Ingredients</h5>
+                <p>
+                  What kind of ingredients you use (e.g.: premium chocolate,
+                  handmade butter, fresh fruit). Mention any special dietary
+                  options (e.g.: egg-free, sugar-free).
+                </p>
+              </div>
+              <div class="about-us-inprotentpoint">
+                <h5>Our Dream, Your Joy</h5>
+                <p>
+                  Where Mary Converse wants to go in the future, and how
+                  committed you are to spreading joy in the lives of customers.
+                  Building long-term relationships and showcasing brand
+                  integrity.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="about-img">
+            <a href="#"
+              ><img src="./assets/images/about-us.jpg" alt="about-us.jpg"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="shop">
+      <div class="container">
+        <h2>Shop</h2>
+        <p>
+          Use professional yet natural and approachable photos of your team.
+          Avoid stiff, formal corporate headshots.
+        </p>
+        <div class="d-flex gap-20 m-4">
+          <div class="product-card">
+            <div class="shop-img">
+              <img src="./assets/images/shop1.jpg" alt="our-team1" />
+            </div>
+            <div class="shop-product">
+              <h3>Chocolate Truffle</h3>
+              <h6>Rich dark chocolate and soft truffle cream layer</h6>
+              <!-- <div class="flaviour-sec">
+                <h4>Flavor: Red Velvet</h4>
+                <h4>Weight: 1 Pound</h4>
+              </div> -->
+              <span>Price: ₹699</span>
+              <div class="more-btn-shop">
+                <a href="#">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="shop-img">
+              <img src="./assets/images/shop2.jpg" alt="our-team1" />
+            </div>
+            <div class="shop-product">
+              <h3>Red Velvet Cream</h3>
+              <h6>Classic Red Velvet Sponge and Whipped Cream Frosting</h6>
+              <!-- <div class="flaviour-sec">
+                <h4>Flavor: Red Velvet</h4>
+                <h4>Weight: 1 Pound</h4>
+              </div> -->
+              <span>Price: ₹799</span>
+              <div class="more-btn-shop">
+                <a href="#">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="shop-img">
+              <img src="./assets/images/shop3.jpg" alt="our-team1" />
+            </div>
+            <div class="shop-product">
+              <h3>Black Forest</h3>
+              <h6>Chocolate sponge, cherry filling and heavy whipped cream</h6>
+              <!-- <div class="flaviour-sec">
+                <h4>Flavor: Red Velvet</h4>
+                <h4>Weight: 1 Pound</h4>
+              </div> -->
+              <span>Price: ₹649</span>
+              <div class="more-btn-shop">
+                <a href="#">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="shop-img">
+              <img src="./assets/images/shop4.jpg" alt="our-team1" />
+            </div>
+            <div class="shop-product">
+              <h3>Vanilla Fruit Fusion</h3>
+              <h6>Vanilla sponge with fresh cut fruit and light cream</h6>
+              <!-- <div class="flaviour-sec">
+                <h4>Flavor: Red Velvet</h4>
+                <h4>Weight: 1 Pound</h4>
+              </div> -->
+              <span>Price: ₹649</span>
+              <div class="more-btn-shop">
+                <a href="#">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="shop-img">
+              <img src="./assets/images/shop5.jpg" alt="our-team1" />
+            </div>
+            <div class="shop-product">
+              <h3>Butterscotch Crunch</h3>
+              <h6>Butterscotch sponge with caramel crunch and cream</h6>
+              <!-- <div class="flaviour-sec">
+                <h4>Flavor: Red Velvet</h4>
+                <h4>Weight: 1 Pound</h4>
+              </div> -->
+              <span>Price: ₹699</span>
+              <div class="more-btn-shop">
+                <a href="#">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="shop-img">
+              <img src="./assets/images/shop6.jpg" alt="our-team1" />
+            </div>
+            <div class="shop-product">
+              <h3>Strawberry Bliss</h3>
+              <h6>A sweet combo of strawberry sponge and strawberry cream</h6>
+              <!-- <div class="flaviour-sec">
+                <h4>Flavor: Red Velvet</h4>
+                <h4>Weight: 1 Pound</h4>
+              </div> -->
+              <span>Price: ₹799</span>
+              <div class="more-btn-shop">
+                <a href="#">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="shop-img">
+              <img src="./assets/images/shop7.jpg" alt="our-team1" />
+            </div>
+            <div class="shop-product">
+              <h3>Blueberry Cream</h3>
+              <h6>Soft vanilla sponge with blueberry topping and cream</h6>
+              <!-- <div class="flaviour-sec">
+                <h4>Flavor: Red Velvet</h4>
+                <h4>Weight: 1 Pound</h4>
+              </div> -->
+              <span>Price: ₹649</span>
+              <div class="more-btn-shop">
+                <a href="#">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="shop-img">
+              <img src="./assets/images/shop8.jpg" alt="our-team1" />
+            </div>
+            <div class="shop-product">
+              <h3>Chocolate Overload</h3>
+              <h6>
+                Three-layer chocolate, chips, gas—a chocolate lover's dream
+              </h6>
+              <!-- <div class="flaviour-sec">
+                <h4>Flavor: Red Velvet</h4>
+                <h4>Weight: 1 Pound</h4>
+              </div> -->
+              <span>Price: ₹899</span>
+              <div class="more-btn-shop">
+                <a href="#">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery section -->
+
+    <section class="gallery-section">
+      <div class="container">
+        <div class="gallery-tittle">
+          <h2>Gallery</h2>
+          <p>
+            Use professional yet natural and approachable photos of your team.
+            Avoid stiff, formal corporate headshots.
+          </p>
+        </div>
+        <div class="gallery-block">
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery1.jpg" alt="gallery-img1" loading="lazy"
+            /></a>
+          </div>
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery2.jpg" alt="gallery-img2" loading="lazy"
+            /></a>
+          </div>
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery3.jpg" alt="gallery-img3" loading="lazy"
+            /></a>
+          </div>
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery4.jpg" alt="gallery-img4" loading="lazy"
+            /></a>
+          </div>
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery5.jpg" alt="gallery-img4" loading="lazy"
+            /></a>
+          </div>
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery6.jpg" alt="gallery-img6" loading="lazy"
+            /></a>
+          </div>
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery7.jpg" alt="gallery-img7" loading="lazy"
+            /></a>
+          </div>
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery8.jpg" alt="gallery-img8" loading="lazy"
+            /></a>
+          </div>
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery9.jpg" alt="gallery-img9" loading="lazy"
+            /></a>
+          </div>
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery10.jpg" alt="gallery-img10"   loading="lazy"
+            /></a>
+          </div>
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery11.jpg" alt="gallery-img11" loading="lazy"
+            /></a>
+          </div>
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery12.jpg" alt="gallery-img12"   loading="lazy"
+            /></a>
+          </div>
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery13.jpg" alt="gallery-img13" loading="lazy"
+            /></a>
+          </div>
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery14.jpg" alt="gallery-img14" loading="lazy"
+            /></a>
+          </div>
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery15.jpg" alt="gallery-img15" loading="lazy"
+            /></a>
+          </div>
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery16.jpg" alt="gallery-img16" loading="lazy"
+            /></a>
+          </div>
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery17.jpg" alt="gallery-img17" loading="lazy"
+            /></a>
+          </div>
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery18.jpg" alt="gallery-img18" loading="lazy"
+            /></a>
+          </div>
+          <div class="gallery-img">
+            <a href="#"
+              ><img src="./assets/images/gallery/gallery19.jpg" alt="gallery-img19" loading="lazy"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-us-sec">
+      <div class="container">
+        <div class="inner-block">
+          <div class="tittle-block">
+            <h2>Contact Us</h2>
+          </div>
+          <div class="d-flex-contact">
+            <div class="col-6">
+              <div class="from-block">
+                <div class="tittle-block-from">
+                  <h2>Get In Touch</h2>
+                </div>
+                <form action="">
+                  <div class="input-group">
+                    <label for="fn">First Name</label>
+                    <input
+                      type="text"
+                      class="form-contorl"
+                      placeholder="First Name"
+                      id="fn"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <label for="no">Ph No</label>
+                    <input
+                      type="number"
+                      class="form-contorl"
+                      name="phonenumber"
+                      id="no"
+                      placeholder="Ph No"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <label for="email">Email</label>
+                    <input
+                      type="email"
+                      class="form-contorl"
+                      id="email"
+                      placeholder="Email"
+                      name="email"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <label for="address">Address</label>
+                    <input
+                      type="text"
+                      class="form-contorl"
+                      id="address"
+                      placeholder="Adderss"
+                      name="address"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <div class="submit-btn-contact">
+                      <input type="submit" name="submit" value="Submit" />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="map-block">
+                <iframe
+                  title="Gogle maps"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.332801385723!2d88.80596537561101!3d23.011549679181584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff35684b424fb7%3A0x795caa1ef2f33b62!2sBiswaspara!5e0!3m2!1sen!2sin!4v1762832051776!5m2!1sen!2sin"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="fotter-inner">
+          <div class="fotter-text-img">
+            <a href="#"><img src="./assets/images/logo.png" alt=""></a>
+            <p>
+              A red suit with white fur trim, black leather boots, and a black belt. He also wears a red hat with white fur trim.
+            </p>
+          </div>
+          <div class="fotter-text">
+            <h5>Home</h5>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="fotter-text">
+            <h5>About Us</h5>
+            <ul>
+              <li><a href="#">Where love meets baking</a></li>
+              <li><a href="#">Quality and Fresh Ingredients</a></li>
+              <li><a href="#">Our Dream, Your Joy</a></li>
+            </ul>
+          </div>
+          <div class="fotter-text">
+            <h5>Shop</h5>
+            <ul>
+              <li><a href="#">Chocolate Truffle</a></li>
+              <li><a href="#">Red Velvet Cream</a></li>
+              <li><a href="#">Black Forest</a></li>
+              <li><a href="#">Vanilla Fruit Fusion</a></li>
+              <li><a href="#">Butterscotch Crunch</a></li>
+              <li><a href="#">Strawberry Bliss</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <p>© 2025 Merry crumbs. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    
+
+    <!-- jQuery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
